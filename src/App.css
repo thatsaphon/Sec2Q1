@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.Container {
+  display: flex;
+  justify-content: center;
+}
+.Frame {
+  border: 2px solid black;
+  min-height: 100vh;
+}
+.Frame1 {
+  width: 200px;
+}
+.Frame2 {
+  flex-grow: 1;
+  min-width: 100px;
+}
+.Frame3 {
+  width: 300px;
+}
